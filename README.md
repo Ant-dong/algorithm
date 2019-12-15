@@ -227,7 +227,10 @@
 
 ##### RL上溢
 
-![14-45-54.png](http://ww1.sinaimg.cn/large/006zweohgy1g9dr5bik71j30qd0bv417.jpg)
+![14-45-54.png](http://ww1.sinaimg.cn/large/006zweohgy1g9dr5bik71j30qd0bv417.jpg) 
+
+##### 红黑树插入元素总结
+
 
 #### 代码实现
 
