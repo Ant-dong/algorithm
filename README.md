@@ -230,7 +230,7 @@
 ![14-45-54.png](http://ww1.sinaimg.cn/large/006zweohgy1g9dr5bik71j30qd0bv417.jpg) 
 
 ##### 红黑树插入元素总结
-
+![红黑树插入总结](https://github.com/wuzhengdong1/algorithm/blob/master/%E7%BA%A2%E9%BB%91%E6%A0%91%E6%8F%92%E5%85%A5%E7%9A%848%E7%A7%8D%E6%83%85%E6%99%AF.png)
 
 #### 代码实现
 
