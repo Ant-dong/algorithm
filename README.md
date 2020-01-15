@@ -180,13 +180,13 @@
 ![14-30-03.png](http://ww1.sinaimg.cn/large/006zweohgy1g9dr5aq4nvj30px096myz.jpg) 
 ### 红黑树能自平衡，它靠的是什么？三种操作：左旋、右旋和变色。
 
-左旋：以某个结点作为支点(旋转结点)，其右子结点变为旋转结点的父结点，右子结点的左子结点变为旋转结点的右子结点，左子结点保持不变。如图1。  
-右旋：以某个结点作为支点(旋转结点)，其左子结点变为旋转结点的父结点，左子结点的右子结点变为旋转结点的左子结点，右子结点保持不变。如图2。  
-变色：结点的颜色由红变黑或由黑变红。  
-![zuoxuan.png](https://github.com/wuzhengdong1/algorithm/blob/master/%E5%B7%A6%E6%97%8B.png)
-![youxuan.png](https://github.com/wuzhengdong1/algorithm/blob/master/%E5%8F%B3%E6%97%8B.png)
-左旋只影响旋转结点和其右子树的结构，把右子树的结点往左子树挪了。  
-右旋只影响旋转结点和其左子树的结构，把左子树的结点往右子树挪了。  
+#### 1、左旋：以某个结点作为支点(旋转结点)，其右子结点变为旋转结点的父结点，右子结点的左子结点变为旋转结点的右子结点，左子结点保持不变。 
+![zuoxuan.png](https://github.com/wuzhengdong1/algorithm/blob/master/%E5%B7%A6%E6%97%8B.png) 
+#### 2、右旋：以某个结点作为支点(旋转结点)，其左子结点变为旋转结点的父结点，左子结点的右子结点变为旋转结点的左子结点，右子结点保持不变。 
+![youxuan.png](https://github.com/wuzhengdong1/algorithm/blob/master/%E5%8F%B3%E6%97%8B.png)  
+#### 3、变色：结点的颜色由红变黑或由黑变红。  
+#### 左旋只影响旋转结点和其右子树的结构，把右子树的结点往左子树挪了。  
+#### 右旋只影响旋转结点和其左子树的结构，把左子树的结点往右子树挪了。  
 
 ### 添加元素
 
